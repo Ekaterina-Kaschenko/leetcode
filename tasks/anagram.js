@@ -9,6 +9,9 @@ var isAnagram = function(s, t) {
   return reversedS === reversedT;
 };
 
+// Input: strs = ["eat","tea","tan","ate","nat","bat"]
+// Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
 var groupAnagrams = function(arr) {
   const anagrams = {};
 
