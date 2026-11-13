@@ -1,6 +1,6 @@
 const CHAR_CODE_CASE_DIFF = 32;
 
-const makeTheStringGreat = s => {
+const makeTheStringGreat = (s) => {
   if (s.length < 1 || s.length > 100) return;
 
   const checkArr = (str) => {
@@ -16,8 +16,8 @@ const makeTheStringGreat = s => {
   };
 
   return checkArr(s);
-}
+};
 
-makeTheStringGreat('leEeetcode') // 'leetcode'
-makeTheStringGreat('abBAcC') // ''
-makeTheStringGreat('s') // 's'
+makeTheStringGreat("leEeetcode"); // 'leetcode'
+makeTheStringGreat("abBAcC"); // ''
+makeTheStringGreat("s"); // 's'
